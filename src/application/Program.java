@@ -13,7 +13,7 @@ public class Program {
 		System.out.println(order);
 		/// valor do status é impresso em String
 
-		// para converter Srting para enum é feito da seguinte forma:
+		// para converter String para enum é feito da seguinte forma:
 
 		OrderStatus os1 = OrderStatus.DELIVERED;
 		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
